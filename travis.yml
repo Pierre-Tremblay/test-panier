@@ -1,4 +1,0 @@
-language: node_js
-rvm:
-  - 16.14.2
-cache : npm

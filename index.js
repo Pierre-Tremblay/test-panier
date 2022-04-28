@@ -1,10 +1,11 @@
+
 const produit1 = {name: 'Stylo', poids: 0.1, quantity: 10, prixHT: 3, tauxTVA: 5}
 const produit2 = {name: 'Carnet', poids: 0.5, quantity: 5, prixHT: 10, tauxTVA: 15}
 const produit3 = {name: 'Pochette', poids: 0.3, quantity: 3, prixHT: 5, tauxTVA: 10}
 
 
 // Calcul de la TVA
-const calculerTVA = (panier) => {
+export const calculerTVA = (panier) => {
 
     const tauxTVA = panier.tauxTVA;
     const prixHT = panier.prixHT;
