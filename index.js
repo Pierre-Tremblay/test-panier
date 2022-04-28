@@ -33,7 +33,8 @@ const calculerTotal = (panier) => {
     console.log(`Prix du panier: ${calculerTotal}€`);
 }
 
-// Test
+
+// Tests
 calculerTVA(produit1)
 calculerFraisDePort(produit1)
 calculerTotal(produit1)
