@@ -34,7 +34,7 @@ const calculerTotal = (panier) => {
 }
 
 
-// Tests
+// Test
 calculerTVA(produit1)
 calculerFraisDePort(produit1)
 calculerTotal(produit1)
